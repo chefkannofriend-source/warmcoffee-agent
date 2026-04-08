@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Personal data — excluded from repo
+data/beans/*.json
+data/grinders/*.json
+data/sessions/*.json
+data/anomalies/*.json
+data/reports/*.json
+data/state.json
+data/weather_config.json
+
+# Keep vocab sample, exclude personal vocab
+data/vocab/personal.json
+
+# Outputs
+outputs/
+!outputs/.gitkeep
+
+# Claude local settings
+.claude/settings.local.json
+
+# Environment
+.env

@@ -1,0 +1,17 @@
+{
+  "_note": "This is a sample vocabulary file. Copy to personal.json and add your own taste words.",
+  "sharp":       -1,
+  "bright":      -1,
+  "sour":        -1,
+  "acidic":      -1,
+  "harsh":        1,
+  "bitter":       1,
+  "astringent":   1,
+  "clean":        0,
+  "balanced":     0,
+  "smooth":       0,
+  "off today":   "WARM_flag",
+  "not well":    "WARM_flag",
+  "sick":        "WARM_flag",
+  "tired":       "WARM_flag"
+}
